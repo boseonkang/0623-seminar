@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e3f2fd; /* 파스텔톤 연파랑 배경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #app {
+    text-align: center;
+  }
+  
+  #warning-button {
+    background-color: #90caf9; /* 파스텔 블루 */
+    color: #0d47a1;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  #warning-button:hover {
+    background-color: #64b5f6;
+  }
+  

@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #e3f2fd; /* 파스텔톤 연파랑 배경 */
+    background-color: #e3f2fd; /* 파스텔톤 연파랑 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,13 @@ body {
   }
   
   #app {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* 버튼 사이 간격 */
   }
   
-  #warning-button {
+  button {
     background-color: #90caf9; /* 파스텔 블루 */
     color: #0d47a1;
     font-size: 2rem;
@@ -25,7 +28,7 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  #warning-button:hover {
+  button:hover {
     background-color: #64b5f6;
   }
   
